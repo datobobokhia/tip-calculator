@@ -1,3 +1,11 @@
+import { GlobalStyles } from "./components/styles/Global";
+import HomePage from "./pages/HomePage";
+
 export default function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <GlobalStyles />
+      <HomePage />
+    </>
+  );
 }
