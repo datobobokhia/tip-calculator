@@ -1,12 +1,6 @@
 import styled from "styled-components";
 
 export const StyledBillInput = styled.div`
-  width: 100%;
-  p {
-    font-family: "Space Mono";
-    font-size: 16px;
-    line-height: 23.7px;
-  }
   input {
     width: 100%;
     border: 0px;
@@ -22,5 +16,15 @@ export const StyledBillInput = styled.div`
     background-repeat: no-repeat;
     background-position: 5%;
     padding-left: 30px;
+  }
+  p {
+    font-family: "Space Mono";
+    font-size: 16px;
+    line-height: 23.7px;
+  }
+  width: 100%;
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
   }
 `;

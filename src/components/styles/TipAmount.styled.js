@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const StyledTipAmount = styled.div`
+  height: 100px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   h2,
   p,
   span {
@@ -27,5 +28,10 @@ export const StyledTipAmount = styled.div`
     color: #7f9d9f;
     font-size: 13px;
     line-height: 19px;
+  }
+
+  @media (max-width: 600px) {
+    height: auto;
+    align-items: center;
   }
 `;
