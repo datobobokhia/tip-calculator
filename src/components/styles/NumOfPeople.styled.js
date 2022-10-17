@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const StyledNumOfPeople = styled.div`
   width: 100%;
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
   p {
     font-family: "Space Mono";
     font-size: 16px;
