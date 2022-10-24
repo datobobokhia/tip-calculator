@@ -37,6 +37,9 @@ export const StyledTipInput = styled.div`
     background-color: #00474b;
     color: #ffffff;
   }
+  button:hover {
+    background-color: #9fe6df;
+  }
 
   @media (max-width: 600px) {
     height: 250px;

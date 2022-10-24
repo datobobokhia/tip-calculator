@@ -14,4 +14,7 @@ export const StyledResetButton = styled.div`
     font-size: 20px;
     line-height: 30px;
   }
+  button:hover {
+    background-color: #9fe6df;
+  }
 `;
