@@ -6,6 +6,10 @@ export const StyledNumOfPeople = styled.div`
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
   }
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
   p {
     font-family: "Space Mono";
     font-size: 16px;

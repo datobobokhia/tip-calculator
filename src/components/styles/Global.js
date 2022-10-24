@@ -7,5 +7,9 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background-color: #c5e4e7;
     }
-    
+    @media (min-width: 601px) {
+    html, body {
+        overflow: hidden;
+    }
+  }
 `;
