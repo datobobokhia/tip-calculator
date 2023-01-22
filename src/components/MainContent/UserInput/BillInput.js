@@ -5,6 +5,7 @@ export default function BillInput({ handleBillChange, bill }) {
     <StyledBillInput>
       <p>Bill</p>
       <input
+        maxLength={9}
         type={"number"}
         min="0"
         placeholder="0"
