@@ -13,6 +13,7 @@ export const StyledResetButton = styled.div`
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+    cursor: ${(props) => (props.buttonColors ? "pointer" : "auto")};
   }
   button:hover {
     background-color: #9fe6df;

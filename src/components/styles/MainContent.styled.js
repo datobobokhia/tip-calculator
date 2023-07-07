@@ -7,23 +7,17 @@ export const StyledMainContent = styled.main`
   max-width: 920px;
   height: 480px;
   margin: auto;
-  margin-top: 90px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 240px;
+
   @media (max-width: 600px) {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-radius: 25px 25px 0 0;
     min-width: 280px;
     width: 100%;
     height: 800px;
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 0px;
   }
 `;

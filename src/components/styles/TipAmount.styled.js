@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const StyledTipAmount = styled.div`
   height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
+  margin-right: 40px;
+  margin-left: 40px;
   h2,
   p,
   span {

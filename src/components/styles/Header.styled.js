@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  text-align: center;
-  margin-top: 60px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @media (max-width: 600px) {
-    margin-top: 50px;
+    height: 120px;
   }
 `;

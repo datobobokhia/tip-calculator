@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const StyledBillInput = styled.div`
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
   input {
     width: 100%;
     border: 0px;

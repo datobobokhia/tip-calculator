@@ -46,7 +46,7 @@ export default function MainContent() {
   };
 
   useEffect(() => {
-    if (bill > 0 && people > 0 && tip > 0) {
+    if (bill > 0 && bill < 10000 && people > 0 && tip > 0) {
       setTipAmount(Math.round(((bill * tip) / 100 / people) * 100) / 100);
       setTotalAmount(
         Math.round(
