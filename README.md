@@ -27,7 +27,7 @@ This project was created for tip calculation purposes using ReactJS library.
 
 ## Project
 
-* Deployed - https://bejewelled-torrone-129c96.netlify.app/
+* Deployed - https://deploy-preview-6--bejewelled-torrone-129c96.netlify.app/
 * Github Repository - https://github.com/datobobokhia/tip-calculator
 
 ## Contact Info
