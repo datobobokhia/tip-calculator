@@ -6,9 +6,10 @@ This project was created for tip calculation purposes using ReactJS library.
 
 ## Features
 
-* Users can calculate the total amount per person.
-* Users can calculate the tip amount per person.
-* Users can reset the calculated results.
+Users are able to:
+* View the optimal layout for the app depending on their device's screen size
+* See hover states for all interactive elements on the page
+* Calculate the correct tip and total cost of the bill per person
 
 ## Screenshots
 
