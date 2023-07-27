@@ -27,6 +27,7 @@ export const StyledTipInput = styled.div`
     border-radius: 5px;
     line-height: 35.54px;
   }
+
   input {
     text-align: end;
     outline-color: #26c2ae;
@@ -36,9 +37,12 @@ export const StyledTipInput = styled.div`
     height: 48px;
     background-color: #00474b;
     color: #ffffff;
+    cursor: pointer;
   }
   button:hover {
     background-color: #9fe6df;
+    color: #000;
+    transition: 0.3s ease-in-out;
   }
 
   @media (max-width: 600px) {

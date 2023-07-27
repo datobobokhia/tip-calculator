@@ -5,7 +5,6 @@ export default function NumOfPeople({
   people,
   nonZeroElement,
 }) {
-  console.log(nonZeroElement);
   return (
     <StyledNumOfPeople>
       <div>
